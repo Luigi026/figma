@@ -1,0 +1,197 @@
+/*box-sizing: border-box;*/
+* {
+    margin: 0;
+    font-family: 'inconsolata', sans-serif;
+    font-size: 12px;   
+}
+a {
+    color: black;
+    text-align: right;
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.html {
+    background-color: #86bee1;
+}
+
+    /* H E A D E R*/ 
+ 
+.home__header__article1__div--i i {
+    color: #ffffff;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 3px;
+}    
+.home__header__article1__div-i i {
+    color: #ffffff;
+    background-color: blue;
+    border-radius: 40%;
+    padding: 3px;
+}
+.home__header__article1--iconos i {
+    font-size:17px ;
+}
+.home__header__article1--iconos  {
+    display: flex;
+    justify-content: space-around;
+    padding: 4px;
+}    
+h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.home__header__article1__div a {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    align-items: center;
+    flex-direction: column-reverse;
+} 
+.home__header__article1__div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+}
+.home__header p {
+ color: #ffffff;
+ font-size: 200%;
+ text-align: center;
+ text-transform: capitalize;
+}
+.home__header__article1 {
+    background-image: url('/image/zapafna2.jpg');
+    background-size: 100% 115%;
+    background-repeat: no-repeat;
+}   
+.home__header__article1 form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.home__header__article1__div1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 4px 0 10px;
+}
+.home__header--box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.home__header__article1__div1 input {
+    width: 100%;
+    padding: 7px 0; 
+    margin: 9px 7px 6px;
+    border-radius: 9px;
+    border: 0;
+}      
+
+    /* M A I N */
+ 
+.home__main p {
+    color: #ffffff;
+    font-size: 200%;
+    text-align: center;
+    text-transform: capitalize;   
+    padding-bottom: 5px;
+    margin: 6px 3px 5px;
+}
+.home__main__div2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 4px 0 17px;
+}  
+.home__main--box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}    
+.home__main__article2 {
+    background-image: url('/image/photo-1542291026-7eec264c27ff.jpg');
+    background-size: 115% 69%;
+    background-repeat: no-repeat;
+}
+.home__main__article2 form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}  
+.home__main__article__div i {
+    background-color: rgb(160, 160, 183);
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 5px;
+}
+.home__main__article__div {
+    display: flex;
+    align-items: center;
+}
+.home__main__article__div img {
+    width: 100%;
+    border-radius: 40px;
+}
+.home__main__article__div img i {
+    display: flex;
+}
+.home__main__div2 input {
+    width: 100%;
+    padding: 7px 0;
+    margin: 8px 7px 6px;
+    border-radius: 9px;
+    border: 0;   
+}
+.home__main__article2__box2--input1, .home__main__article2__box2--input2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+    /* F O O T E R */
+
+.home__footer__article3 {
+    background-image: url('/image/zapafa1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: -40px 0;
+    width: 100%;
+}
+.home__footer__article__div3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 0 10px;
+}
+.home__footer__article__div3--i {
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: blue;
+    border-radius: 9px;
+    padding:4px;
+}
+.home__footer__article__div3 i {
+    color: #ffffff;
+    font-size: 25px;
+}
+.home__footer__article__div3 a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+@media(min-width:481px){
+
+}
+
+
+
+
+
